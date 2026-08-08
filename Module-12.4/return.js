@@ -1,14 +1,14 @@
 // return
 
 function cutHalf(number) {
-    const half = number /2;
+    const half = number / 2;
     return half;
     console.log('after return', half);
 }
 
 
 
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~')
+console.log('-----------------------------------------------------')
 const result = cutHalf(100);
 // console.log('value of the result', result);
 
@@ -21,5 +21,6 @@ function add(num1, num2){
 
 const total = add(12, 16)
 console.log('value of total', total)
+
 const total2 = add(result, number2);
 console.log('value of total2', total2);
